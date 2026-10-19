@@ -1,0 +1,7 @@
+{
+  "name": "olms-ui-tests",
+  "private": true,
+  "description": "Browser walkthrough of the OLMS UI (Patron / Librarian / Administrator) using the system Edge/Chrome",
+  "scripts": { "test": "node ui-walkthrough.cjs" },
+  "dependencies": { "playwright-core": "^1.50.0" }
+}

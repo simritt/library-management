@@ -1,0 +1,20 @@
+# Environment secrets
+.env
+.env.*
+!.env.example
+server/.env
+client/.env
+
+# Dependencies and generated output
+node_modules/
+**/node_modules/
+client/dist/
+dist/
+coverage/
+
+# Logs and local editor files
+*.log
+npm-debug.log*
+.DS_Store
+.vscode/
+.idea/

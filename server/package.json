@@ -1,0 +1,22 @@
+{
+  "name": "library-management-server",
+  "version": "1.0.0",
+  "description": "Backend API for Online Library Management System",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "seed": "node src/scripts/seed.js",
+    "test": "node src/scripts/setupTestDb.js && node --test --test-concurrency=1 tests/unit.test.js tests/api.test.js tests/e2e.test.js",
+    "test:setup": "node src/scripts/setupTestDb.js",
+    "seed:demo": "node src/scripts/seedDemo.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "mysql2": "^3.11.0"
+  }
+}
